@@ -1,0 +1,10 @@
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\HostAlumno\bin\HostAlumno.dll.config
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\HostAlumno\bin\HostAlumno.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\HostAlumno\bin\HostAlumno.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\HostAlumno\bin\LogicaAlumno.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\HostAlumno\bin\LogicaAlumno.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\HostAlumno\obj\Debug\HostAlumno.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\HostAlumno\obj\Debug\HostAlumno.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\HostAlumno\obj\Debug\HostAlumno.csproj.CopyComplete
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\HostAlumno\obj\Debug\HostAlumno.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\HostAlumno\obj\Debug\HostAlumno.pdb

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9befed29-6d2a-462c-97b2-ff3ef2b9157c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51164/WCFNumeroAleatorios.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCFNumeroAleatorios.wsdl" MetadataType="Wsdl" ID="3364154b-8ccf-49dc-a44f-e184f96e71f2" SourceId="1" SourceUrl="http://localhost:51164/WCFNumeroAleatorios.svc?wsdl" />
+    <MetadataFile FileName="WCFNumeroAleatorios.xsd" MetadataType="Schema" ID="041ea53b-480a-4662-aab9-a103969386b8" SourceId="1" SourceUrl="http://localhost:51164/WCFNumeroAleatorios.svc?xsd=xsd2" />
+    <MetadataFile FileName="WCFNumeroAleatorios1.xsd" MetadataType="Schema" ID="a84fc5c3-7fc3-450c-8938-1f9b361e4854" SourceId="1" SourceUrl="http://localhost:51164/WCFNumeroAleatorios.svc?xsd=xsd0" />
+    <MetadataFile FileName="WCFNumeroAleatorios.disco" MetadataType="Disco" ID="b973a153-a5c0-47f4-b3ed-942cdfd759f7" SourceId="1" SourceUrl="http://localhost:51164/WCFNumeroAleatorios.svc?disco" />
+    <MetadataFile FileName="WCFNumeroAleatorios2.xsd" MetadataType="Schema" ID="45f418d1-085f-4b9e-9e76-44fb694738a9" SourceId="1" SourceUrl="http://localhost:51164/WCFNumeroAleatorios.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

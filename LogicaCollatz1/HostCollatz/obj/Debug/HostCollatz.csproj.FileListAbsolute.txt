@@ -1,0 +1,10 @@
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\HostCollatz\bin\HostCollatz.dll.config
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\HostCollatz\bin\HostCollatz.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\HostCollatz\bin\HostCollatz.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\HostCollatz\bin\LogicaCollatz1.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\HostCollatz\bin\LogicaCollatz1.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\HostCollatz\obj\Debug\HostCollatz.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\HostCollatz\obj\Debug\HostCollatz.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\HostCollatz\obj\Debug\HostCollatz.csproj.CopyComplete
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\HostCollatz\obj\Debug\HostCollatz.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\HostCollatz\obj\Debug\HostCollatz.pdb

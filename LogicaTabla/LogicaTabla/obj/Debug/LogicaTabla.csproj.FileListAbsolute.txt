@@ -1,0 +1,6 @@
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\LogicaTabla\bin\Debug\LogicaTabla.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\LogicaTabla\bin\Debug\LogicaTabla.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\LogicaTabla\obj\Debug\LogicaTabla.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\LogicaTabla\obj\Debug\LogicaTabla.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\LogicaTabla\obj\Debug\LogicaTabla.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\LogicaTabla\obj\Debug\LogicaTabla.pdb

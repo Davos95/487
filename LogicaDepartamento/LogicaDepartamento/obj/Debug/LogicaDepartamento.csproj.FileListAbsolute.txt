@@ -1,0 +1,12 @@
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\LogicaDepartamento\bin\Debug\LogicaDepartamento.dll.config
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\LogicaDepartamento\bin\Debug\LogicaDepartamento.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\LogicaDepartamento\bin\Debug\LogicaDepartamento.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\LogicaDepartamento\bin\Debug\EntityFramework.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\LogicaDepartamento\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\LogicaDepartamento\bin\Debug\EntityFramework.xml
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\LogicaDepartamento\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\LogicaDepartamento\obj\Debug\LogicaDepartamento.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\LogicaDepartamento\obj\Debug\LogicaDepartamento.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\LogicaDepartamento\obj\Debug\LogicaDepartamento.csproj.CopyComplete
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\LogicaDepartamento\obj\Debug\LogicaDepartamento.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\LogicaDepartamento\obj\Debug\LogicaDepartamento.pdb

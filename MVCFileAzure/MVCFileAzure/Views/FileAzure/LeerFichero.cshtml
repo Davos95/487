@@ -1,0 +1,32 @@
+﻿@using MVCFileAzure.Models
+@model List<Pelicula>
+
+@{
+    ViewBag.Title = "LeerFichero";
+}
+
+<h2>Leer Fichero</h2>
+@if(Model != null)
+{
+    @foreach(Pelicula p in Model)
+    {
+    <ul>
+        <li>Titulo: @p.titulo</li>
+        <li>Titulo Original: @p.tituloOriginal</li>
+        <li>Descripcion: @p.descripcion</li>
+        <li><img src="@p.poster" style="width:100px; height:200px;"/></li>
+        <li>
+            <ul>
+            @foreach (Escena e in p.escenas)
+            {
+                <li>@e.tituloEscena</li>
+                <li>@e.descripcion</li>
+                <li><img src="@e.imagen" style="width:100px; height:100px;" /></li>
+            }
+            </ul>
+        </li>
+    </ul>
+    }
+}
+
+

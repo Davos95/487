@@ -1,0 +1,6 @@
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\LogicaAlumno\bin\Debug\LogicaAlumno.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\LogicaAlumno\bin\Debug\LogicaAlumno.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\LogicaAlumno\obj\Debug\LogicaAlumno.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\LogicaAlumno\obj\Debug\LogicaAlumno.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\LogicaAlumno\obj\Debug\LogicaAlumno.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaAlumno\LogicaAlumno\obj\Debug\LogicaAlumno.pdb

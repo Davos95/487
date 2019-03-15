@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewData["Title"] = "DepartamentosCliente";
+}
+
+@section Scripts{
+<script src="~/js/RepositoryApiDepartamentos.js"></script>
+    <script>
+        $(document).ready(function () {
+            cargarDepartamentos();
+            $("#insertar").click(function () {
+                var num = $("#numero").val();
+                var nom = $("#nombre").val();
+                var loc = $("#localidad").val();
+                insertarDepartamento(num, nom, loc);
+            });
+            $("#modificar").click(function () {
+                var num = $("#numero").val();
+                var nom = $("#nombre").val();
+                var loc = $("#localidad").val();
+                modificarDepartamento(num, nom, loc);
+            });
+            $("#eliminar").click(function () {
+                var num = $("#numero").val();
+
+                deleteDepartamento(num, function () {
+                    $("#mensaje").text("Departamento eliminado");
+                    cargarDepartamentos();
+                });
+
+            });
+
+        });
+
+        function cargarDepartamentos() {
+            cargarTablaDepartamentosAsync(function (tabla) {
+                $("#cuerpo").html(tabla);
+            });
+        }
+
+        function insertarDepartamento(num, nom, loc) {
+            var urlApi = "https://apidepartamentosdvb.azurewebsites.net/api/Departamentos";
+            //CREAR UN BOJETO DEPARTAMENTO (FORMATO JSON)
+            var dept = new Object();
+            dept.Numero = num;
+            dept.Nombre = nom;
+            dept.Localidad = loc;
+            //CONVERTIMOS EL OBJETO A JSON
+            var objJson = JSON.stringify(dept);
+            $.ajax({
+                url: urlApi,
+                type: 'POST',
+                data: objJson,
+                contentType: "application/json",
+                success: function () {
+                    $("#mensaje").text("DEPARTAMENTO INSERTADO");
+                    cargarDepartamentos();
+                }
+            });
+        }
+
+        function modificarDepartamento(num, nom, loc) {
+            var urlApi = "https://apidepartamentosdvb.azurewebsites.net/api/Departamentos/"+num;
+            var dept = new Object();
+            dept.Numero = num;
+            dept.Nombre = nom;
+            dept.Localidad = loc;
+            var json = JSON.stringify(dept);
+            console.log(json);
+            $.ajax({
+                url: urlApi,
+                contentType: "application/json",
+                type: "PUT",
+                data: json,
+                success: function () {
+                    $("#mensaje").text("Departamento modificado");
+                    cargarDepartamentos();
+                }
+            });
+        }
+
+
+    </script>
+    }
+<h2>Departamentos Cliente AJAX</h2>
+
+<div>
+    <label>Numero: </label>
+    <input type="text" id="numero" class="form-control"/>
+    
+</div>
+<div>
+    <label>Nombre: </label>
+    <input type="text" id="nombre" class="form-control" />
+</div>
+<div>
+    <label>Localidad: </label>
+    <input type="text" id="localidad" class="form-control" />
+</div>
+<div>
+    <button type="button" id="insertar" class="btn btn-success">Insertar</button>
+    <button type="button" id="modificar" class="btn btn-info">Modificar</button>
+    <button type="button" id="eliminar" class="btn btn-danger">Eliminar</button>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Numero</th>
+            <th>Nombre</th>
+            <th>Localidad</th>
+        </tr>
+    </thead>
+    <tbody id="cuerpo">
+
+    </tbody>
+</table>
+<h2 id="mensaje"></h2>

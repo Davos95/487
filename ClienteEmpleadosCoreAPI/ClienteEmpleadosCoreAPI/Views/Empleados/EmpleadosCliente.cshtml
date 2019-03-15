@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewData["Title"] = "EmpleadosCliente";
+}
+
+@section scripts {
+
+    <script>
+        $(document).ready(function () {
+            cargarEmpleados();
+            $("#botonBuscar").click(function () {
+                var salario = $("#salario").val();
+                var apiurl = "https://apiempleadosdvb.azurewebsites.net/api/EmpleadosSalario/" + salario;
+                $.ajax({
+                    url: apiurl,
+                    dataType: "json",
+                    success: function (data) {
+                        $("#cuerpo").html("");
+                        var html = "";
+                        $.each(data, function (key, value) {
+                            html += "<tr>";
+                            html += "<td>" + value.Apellido + "</td><td>" + value.Oficio + "</td><td>" + value.Salario + "</td>";
+                            html += "</tr>";
+                        });
+
+                        $("#cuerpo").append(html);
+                    }
+                });
+            });
+        });
+
+        function cargarEmpleados() {
+            var apiurl = "https://apiempleadosdvb.azurewebsites.net/api/Empleados";
+            $.ajax({
+                url: apiurl,
+                dataType: false,
+                success: function (data) {
+                    var html = "";
+                    $.each(data, function (key, value) {
+                        html += "<tr>";
+                        html += "<td>" + value.Apellido + "</td><td>" + value.Oficio + "</td><td>" + value.Salario + "</td>";
+                        html += "</tr>";
+                    });
+
+                    $("#cuerpo").append(html);
+                }
+            });
+        }
+    </script>
+}
+<h2>EmpleadosCliente</h2>
+
+<div>
+    <label>Salario: </label>
+    <input type="text" id="salario" class="form-control" />
+    <button type="button" id="botonBuscar" class="btn btn-success">Buscar empleados</button>
+</div>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>APELLIDO</th>
+            <th>OFICIO</th>
+            <th>SALARIO</th>
+        </tr>
+    </thead>
+    <tbody id="cuerpo">
+
+    </tbody>
+</table>

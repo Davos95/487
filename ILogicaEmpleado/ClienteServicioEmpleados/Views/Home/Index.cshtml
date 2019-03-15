@@ -1,0 +1,50 @@
+﻿@using ClienteServicioEmpleados.ServicioEmpleados
+@model List<Empleado>
+
+@{
+    ViewBag.Title = "Index";
+}
+@{ 
+    List<String> oficios = ViewBag.Oficios;
+}
+
+<form method="post">
+    <div>
+        <label>Oficios</label>
+        <select name="oficio">
+            @foreach (String oficio in oficios)
+            {
+                <option value="@oficio">@oficio</option>
+            }
+        </select>
+    </div>
+    <div>
+        <button type="submit">Buscar</button>
+    </div>
+</form>
+
+
+@if(Model != null)
+{
+<table class="table table-bordered">
+    <tr>
+        <th>Apellido</th>
+        <th>IdEmpleado</th>
+        <th>Oficio</th>
+        <th>Salario</th>
+    </tr>
+
+    @foreach (Empleado emp in Model)
+    {
+        <tr>
+            <td>@emp.Apellido</td>
+            <td>@emp.IdEmpleado</td>
+            <td>@emp.Oficio</td>
+            <td>@emp.Salario</td>
+        </tr>
+    }
+
+</table>
+}
+
+

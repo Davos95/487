@@ -1,0 +1,15 @@
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\bin\HostEmpleados.dll.config
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\bin\HostEmpleados.dll
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\bin\HostEmpleados.pdb
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\bin\ILogicaEmpleado.dll
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\bin\EntityFramework.dll
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\bin\ILogicaEmpleado.pdb
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\bin\ILogicaEmpleado.dll.config
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\bin\EntityFramework.xml
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\obj\Debug\HostEmpleados.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\obj\Debug\HostEmpleados.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\obj\Debug\HostEmpleados.csproj.CopyComplete
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\obj\Debug\HostEmpleados.dll
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\obj\Debug\HostEmpleados.pdb
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\bin\EntityFramework.SqlServer.dll
+C:\Users\AlumnoMCSD\source\repos\ILogicaEmpleado\HostEmpleados\bin\EntityFramework.SqlServer.xml

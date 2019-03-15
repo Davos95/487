@@ -1,0 +1,14 @@
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\bin\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.deps.json
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\bin\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.runtimeconfig.json
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\bin\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.runtimeconfig.dev.json
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\bin\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.dll
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\obj\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\obj\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.RazorAssemblyInfo.cache
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\obj\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.RazorAssemblyInfo.cs
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\obj\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.AssemblyInfoInputs.cache
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\obj\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.AssemblyInfo.cs
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\obj\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.RazorTargetAssemblyInfo.cache
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\obj\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\bin\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.pdb
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\obj\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.dll
+C:\Users\AlumnoMCSD\source\repos\ApiEmpleadosSeguridadCore\ApiEmpleadosSeguridadCore\obj\Debug\netcoreapp2.1\ApiEmpleadosSeguridadCore.pdb

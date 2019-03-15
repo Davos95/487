@@ -1,0 +1,6 @@
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\LogicaCalculadora\bin\Debug\LogicaCalculadora.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\LogicaCalculadora\bin\Debug\LogicaCalculadora.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\LogicaCalculadora\obj\Debug\LogicaCalculadora.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\LogicaCalculadora\obj\Debug\LogicaCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\LogicaCalculadora\obj\Debug\LogicaCalculadora.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\LogicaCalculadora\obj\Debug\LogicaCalculadora.pdb

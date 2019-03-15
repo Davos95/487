@@ -1,0 +1,35 @@
+﻿@model int[]
+@{
+    ViewBag.Title = "Home Page";
+}
+@{ 
+    int num = 1;
+}
+<div class="jumbotron">
+    <form method="post">
+        <div>
+            <label>Numero a multiplicar</label>
+            <input type="text" name="numero" class="form-control" />
+            <button type="submit" class="btn btn-success">Llamar a WCF Service Collatz</button>
+        </div>
+    </form>
+</div>
+
+@if (Model != null)
+{
+<table>
+    <tr>
+        <th>numero</th>
+        <th>resultado</th>
+    </tr>
+    @foreach (int i in Model)
+    {
+        <tr>
+            <td>@num</td>
+            <td>@i</td>
+        </tr>
+        { num++; }
+    }
+</table>
+    
+}

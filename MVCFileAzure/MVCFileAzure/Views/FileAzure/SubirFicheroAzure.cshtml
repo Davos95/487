@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "SubirFicheroAzure";
+}
+
+<h2>Subir archivo Azure Storage File Azure</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <div>
+        <label>Seleccione un archivo:</label>
+        <input type="file" name="fichero" size="25" />
+    </div>
+    <div>
+        <button type="submit">Subir fichero Azure</button>
+    </div>
+</form>
+
+<h3 style="color:blue">
+    @ViewBag.Mensaje
+</h3>
+
+<h2 style="color:red">
+    @ViewBag.Error
+</h2>
+
+

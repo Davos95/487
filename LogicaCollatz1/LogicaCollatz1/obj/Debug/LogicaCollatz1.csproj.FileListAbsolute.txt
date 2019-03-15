@@ -1,0 +1,6 @@
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\LogicaCollatz1\bin\Debug\LogicaCollatz1.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\LogicaCollatz1\bin\Debug\LogicaCollatz1.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\LogicaCollatz1\obj\Debug\LogicaCollatz1.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\LogicaCollatz1\obj\Debug\LogicaCollatz1.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\LogicaCollatz1\obj\Debug\LogicaCollatz1.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaCollatz1\LogicaCollatz1\obj\Debug\LogicaCollatz1.pdb

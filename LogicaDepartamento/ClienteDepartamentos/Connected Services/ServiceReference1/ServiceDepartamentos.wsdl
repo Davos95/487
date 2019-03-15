@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServiceDepartamentos" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:53037/ServicioDepartamentos.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:53037/ServicioDepartamentos.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:53037/ServicioDepartamentos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/LogicaDepartamento.Models" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceDepartamentos_GetDepartamentos_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartamentos" />
+  </wsdl:message>
+  <wsdl:message name="IServiceDepartamentos_GetDepartamentos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartamentosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceDepartamentos_GetDepartamentosAsynca_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartamentosAsynca" />
+  </wsdl:message>
+  <wsdl:message name="IServiceDepartamentos_GetDepartamentosAsynca_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartamentosAsyncaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceDepartamentos">
+    <wsdl:operation name="GetDepartamentos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceDepartamentos/GetDepartamentos" message="tns:IServiceDepartamentos_GetDepartamentos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceDepartamentos/GetDepartamentosResponse" message="tns:IServiceDepartamentos_GetDepartamentos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartamentosAsynca">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceDepartamentos/GetDepartamentosAsynca" message="tns:IServiceDepartamentos_GetDepartamentosAsynca_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceDepartamentos/GetDepartamentosAsyncaResponse" message="tns:IServiceDepartamentos_GetDepartamentosAsynca_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServiceDepartamentos" type="tns:IServiceDepartamentos">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDepartamentos">
+      <soap:operation soapAction="http://tempuri.org/IServiceDepartamentos/GetDepartamentos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartamentosAsynca">
+      <soap:operation soapAction="http://tempuri.org/IServiceDepartamentos/GetDepartamentosAsynca" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceDepartamentos">
+    <wsdl:port name="BasicHttpBinding_IServiceDepartamentos" binding="tns:BasicHttpBinding_IServiceDepartamentos">
+      <soap:address location="http://localhost:53037/ServicioDepartamentos.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

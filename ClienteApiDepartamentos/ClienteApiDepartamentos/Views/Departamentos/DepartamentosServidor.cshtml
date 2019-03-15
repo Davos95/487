@@ -1,0 +1,47 @@
+﻿@using ClienteApiDepartamentos.Models
+@model List<Departamento>
+@{
+    ViewData["Title"] = "DepartamentosServidor";
+}
+
+<h2>DepartamentosServidor</h2>
+
+<p>
+    <a asp-action="InsertarDepartamento">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Numero
+            </th>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Localidad
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (Departamento dept in Model) {
+        <tr>
+            <td>
+                @dept.Numero
+            </td>
+            <td>
+                @dept.Nombre
+            </td>
+            <td>
+                @dept.Localidad
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "ModificarDepartamento", new { deptno = dept.Numero }) |
+                @Html.ActionLink("Details", "DetallesDepartamento", new { deptno = dept.Numero }) |
+                @Html.ActionLink("Delete", "DeleteDepartamento", new { deptno = dept.Numero })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,52 @@
+﻿ 
+@{
+    ViewBag.Title = "Index";
+}
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $.getJSON("https://apiempleadosdvb.azurewebsites.net/api/Empleados", function (data) {
+                WriteBodyTable(data);
+            });
+
+            $("#buscar").click(function () {
+                var salario = $("#salario").val();
+                $.getJSON("https://apiempleadosdvb.azurewebsites.net/api/EmpleadosSalario/" + salario, function (data) {
+                    WriteBodyTable(data);
+                });
+            });   
+        });
+
+        function WriteBodyTable(data) {
+            $("#cuerpo").html("");
+            var html = "";
+            $.each(data, function (key, value) {
+                html += "<tr>";
+                html += "<td>" + value.Apellido + "</td>";
+                html += "<td>" + value.Oficio + "</td>";
+                html += "<td>" + value.Salario + "</td>";
+                html += "</tr>";
+            });
+            $("#cuerpo").append(html);
+        }
+    </script>
+    }
+<h2>Index</h2>
+<div>
+    <label>Salario:</label>
+    <input type="number" id="salario" class="form-control" />
+    <button type="button" id="buscar" class="btn btn-success">Buscar</button>
+</div>
+<div>
+    <table class="table table-responsive table-bordered">
+        <thead>
+            <tr>
+                <th>APELLIDO</th>
+                <th>OFICIO</th>
+                <th>SALARIO</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpo"></tbody>
+
+    </table>
+</div>

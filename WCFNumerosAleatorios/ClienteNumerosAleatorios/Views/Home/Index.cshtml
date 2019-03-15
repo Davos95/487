@@ -1,0 +1,16 @@
+﻿@model int[]
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@if(Model != null)
+{
+    <ul>
+        @foreach (int i in Model)
+        {
+            <li>@i</li>
+        }
+    </ul>
+}

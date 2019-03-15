@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b93c5231-0103-4913-87b6-93873740791c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50266/ServicioTabla.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioTabla.xsd" MetadataType="Schema" ID="e33f7110-e8b6-47f9-aa10-1f0778f8afe4" SourceId="1" SourceUrl="http://localhost:50266/ServicioTabla.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioTabla1.xsd" MetadataType="Schema" ID="8568a3a2-fb4b-492e-b590-4529eddafd20" SourceId="1" SourceUrl="http://localhost:50266/ServicioTabla.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioTabla2.xsd" MetadataType="Schema" ID="587869da-144a-4b9a-b5fd-a770d085c062" SourceId="1" SourceUrl="http://localhost:50266/ServicioTabla.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioTabla.disco" MetadataType="Disco" ID="e06f4721-6579-4049-b60d-1acc2cbdb43d" SourceId="1" SourceUrl="http://localhost:50266/ServicioTabla.svc?disco" />
+    <MetadataFile FileName="Tabla.wsdl" MetadataType="Wsdl" ID="9a633562-ab78-4044-aa62-faea4f18346d" SourceId="1" SourceUrl="http://localhost:50266/ServicioTabla.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,28 @@
+﻿@model List<String>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<ul>
+    <li>@Html.ActionLink("Subir Archivo","SubirFicheroAzure","FileAzure")</li>
+</ul>
+
+<h3>Lista de ficheros</h3>
+<ul class="list-group">
+
+    @foreach (String s in Model)
+    {
+        <li class="list-group-item">
+            @if (s.EndsWith("xml"))
+            {
+                <span>@Html.ActionLink(s, "LeerFichero", "FileAzure", new { name = s },null)</span>
+            }
+            else
+            {
+                <span>@s</span>
+            }
+            </li>
+        }
+</ul>

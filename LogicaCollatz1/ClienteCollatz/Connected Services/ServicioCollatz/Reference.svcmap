@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="994317e9-e27a-443f-9246-aa018eae7a0b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49828/ServicioCollatz.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioCollatz.xsd" MetadataType="Schema" ID="f033827c-d039-4d5c-8cfb-371928badc86" SourceId="1" SourceUrl="http://localhost:49828/ServicioCollatz.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioCollatz1.xsd" MetadataType="Schema" ID="ff300cff-596b-4052-99ee-ff59fdd52d4f" SourceId="1" SourceUrl="http://localhost:49828/ServicioCollatz.svc?xsd=xsd0" />
+    <MetadataFile FileName="Collatz.wsdl" MetadataType="Wsdl" ID="a619c1fc-19ec-4e71-b1b1-41a19719d0b4" SourceId="1" SourceUrl="http://localhost:49828/ServicioCollatz.svc?wsdl" />
+    <MetadataFile FileName="ServicioCollatz.disco" MetadataType="Disco" ID="3a6744c5-e0b9-4d6e-876f-9f566b347e37" SourceId="1" SourceUrl="http://localhost:49828/ServicioCollatz.svc?disco" />
+    <MetadataFile FileName="ServicioCollatz2.xsd" MetadataType="Schema" ID="059e9f09-92d8-42c1-b562-22567e58f644" SourceId="1" SourceUrl="http://localhost:49828/ServicioCollatz.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,10 @@
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\HostTabla\bin\HostTabla.dll.config
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\HostTabla\bin\HostTabla.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\HostTabla\bin\HostTabla.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\HostTabla\bin\LogicaTabla.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\HostTabla\bin\LogicaTabla.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\HostTabla\obj\Debug\HostTabla.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\HostTabla\obj\Debug\HostTabla.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\HostTabla\obj\Debug\HostTabla.csproj.CopyComplete
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\HostTabla\obj\Debug\HostTabla.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaTabla\HostTabla\obj\Debug\HostTabla.pdb

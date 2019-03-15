@@ -1,0 +1,9 @@
+C:\Users\AlumnoMCSD\source\repos\NuGetNorthWindAPIdvb\NuGetNorthWindAPIdvb\bin\Release\netstandard2.0\NuGetNorthWindAPIdvb.deps.json
+C:\Users\AlumnoMCSD\source\repos\NuGetNorthWindAPIdvb\NuGetNorthWindAPIdvb\bin\Release\netstandard2.0\NuGetNorthWindAPIdvb.dll
+C:\Users\AlumnoMCSD\source\repos\NuGetNorthWindAPIdvb\NuGetNorthWindAPIdvb\bin\Release\netstandard2.0\NuGetNorthWindAPIdvb.pdb
+C:\Users\AlumnoMCSD\source\repos\NuGetNorthWindAPIdvb\NuGetNorthWindAPIdvb\obj\Release\netstandard2.0\NuGetNorthWindAPIdvb.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\NuGetNorthWindAPIdvb\NuGetNorthWindAPIdvb\obj\Release\netstandard2.0\NuGetNorthWindAPIdvb.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\NuGetNorthWindAPIdvb\NuGetNorthWindAPIdvb\obj\Release\netstandard2.0\NuGetNorthWindAPIdvb.AssemblyInfoInputs.cache
+C:\Users\AlumnoMCSD\source\repos\NuGetNorthWindAPIdvb\NuGetNorthWindAPIdvb\obj\Release\netstandard2.0\NuGetNorthWindAPIdvb.AssemblyInfo.cs
+C:\Users\AlumnoMCSD\source\repos\NuGetNorthWindAPIdvb\NuGetNorthWindAPIdvb\obj\Release\netstandard2.0\NuGetNorthWindAPIdvb.dll
+C:\Users\AlumnoMCSD\source\repos\NuGetNorthWindAPIdvb\NuGetNorthWindAPIdvb\obj\Release\netstandard2.0\NuGetNorthWindAPIdvb.pdb

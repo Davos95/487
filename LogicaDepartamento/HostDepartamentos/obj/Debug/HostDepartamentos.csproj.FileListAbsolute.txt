@@ -1,0 +1,15 @@
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\bin\HostDepartamentos.dll.config
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\bin\HostDepartamentos.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\bin\HostDepartamentos.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\bin\EntityFramework.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\bin\EntityFramework.SqlServer.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\bin\LogicaDepartamento.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\bin\LogicaDepartamento.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\bin\LogicaDepartamento.dll.config
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\bin\EntityFramework.xml
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\bin\EntityFramework.SqlServer.xml
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\obj\Debug\HostDepartamentos.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\obj\Debug\HostDepartamentos.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\obj\Debug\HostDepartamentos.csproj.CopyComplete
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\obj\Debug\HostDepartamentos.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaDepartamento\HostDepartamentos\obj\Debug\HostDepartamentos.pdb

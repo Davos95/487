@@ -1,0 +1,10 @@
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\HostCalculadora\bin\HostCalculadora.dll.config
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\HostCalculadora\bin\HostCalculadora.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\HostCalculadora\bin\HostCalculadora.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\HostCalculadora\bin\LogicaCalculadora.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\HostCalculadora\bin\LogicaCalculadora.pdb
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\HostCalculadora\obj\Debug\HostCalculadora.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\HostCalculadora\obj\Debug\HostCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\HostCalculadora\obj\Debug\HostCalculadora.csproj.CopyComplete
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\HostCalculadora\obj\Debug\HostCalculadora.dll
+C:\Users\AlumnoMCSD\source\repos\LogicaCalculadora\HostCalculadora\obj\Debug\HostCalculadora.pdb

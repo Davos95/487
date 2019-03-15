@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="cadenaHospital-Web.config Connection String" description="cadenaHospital Connection String used in web.config by the application to access the database." defaultValue="Data Source=sqlxamarin.database.windows.net;Initial Catalog=HOSPITALXAMARIN;User ID=adminsql;Password=Admin123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\AlumnoMCSD\\source\\repos\\ILogicaEmpleado\\HostEmpleados\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cadenaHospital']/@connectionString" />
+  </parameter>
+</parameters>

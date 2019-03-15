@@ -1,0 +1,56 @@
+﻿@using ClienteApiSeguridad.Models
+
+@model List<Empleado>
+
+@{
+    ViewData["Title"] = "Subordinados";
+}
+
+<h2>Subordinados</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>IdEmpleado
+            </th>
+            <th>Apellido
+            </th>
+            <th>Oficio
+            </th>
+            <th>Director
+            </th>
+            <th>Salario
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (Empleado emp in Model) {
+        <tr>
+            <td>
+                @emp.IdEmpleado
+            </td>
+            <td>
+                @emp.Apellido
+            </td>
+            <td>
+                @emp.Oficio
+            </td>
+            <td>
+                @emp.Director
+            </td>
+            <td>
+                @emp.Salario
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Detalles", "DetallesEmpleado", new { empno = @emp.IdEmpleado }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
