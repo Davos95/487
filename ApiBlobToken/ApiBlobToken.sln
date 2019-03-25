@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiBlobToken", "ApiBlobToken\ApiBlobToken.csproj", "{65D3B11A-1809-4D64-A434-C7D97F858639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65D3B11A-1809-4D64-A434-C7D97F858639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D3B11A-1809-4D64-A434-C7D97F858639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D3B11A-1809-4D64-A434-C7D97F858639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D3B11A-1809-4D64-A434-C7D97F858639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2A08213-C2BF-4C0D-9CDF-C8E3858CFAD7}
+	EndGlobalSection
+EndGlobal

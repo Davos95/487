@@ -1,0 +1,77 @@
+﻿@model CochesCosmosDb.Models.Vehiculo
+
+@{
+    ViewData["Title"] = "InsertarCoche";
+}
+
+<h2>InsertarCoche</h2>
+
+<h4>Vehiculo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="InsertarCoche">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Marca" class="control-label"></label>
+                <input asp-for="Marca" class="form-control" />
+                <span asp-validation-for="Marca" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Modelo" class="control-label"></label>
+                <input asp-for="Modelo" class="form-control" />
+                <span asp-validation-for="Modelo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tipo" class="control-label"></label>
+                <input asp-for="Tipo" class="form-control" />
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VelocidadMaxima" class="control-label"></label>
+                <input asp-for="VelocidadMaxima" class="form-control" />
+                <span asp-validation-for="VelocidadMaxima" class="text-danger"></span>
+            </div>
+            <div class="col-md-4" style="background-color:yellow">
+                <div class="form-group">
+                    <label>Vehiculo de motor</label>
+                    <input type="checkbox" class="form-control" name="incluirmotor" value="SI" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Motor.Tipo" class="control-label"></label>
+                    <input asp-for="Motor.Tipo" class="form-control" />
+                    <span asp-validation-for="Motor.Tipo" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Motor.Cilindrada" class="control-label"></label>
+                    <input asp-for="Motor.Cilindrada" class="form-control" />
+                    <span asp-validation-for="Motor.Cilindrada" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Motor.Consumo" class="control-label"></label>
+                    <input asp-for="Motor.Consumo" class="form-control" />
+                    <span asp-validation-for="Motor.Consumo" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Motor.Caballos" class="control-label"></label>
+                    <input asp-for="Motor.Caballos" class="form-control" />
+                    <span asp-validation-for="Motor.Caballos" class="text-danger"></span>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

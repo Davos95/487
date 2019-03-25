@@ -1,0 +1,17 @@
+﻿@using MVCWebJob.Models
+@model List<Noticia>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div class="row">
+    @foreach (Noticia no in Model)
+    {
+        <div class="col-md-6">
+            <h2 style="color:blue">@no.idTitular | @no.Titular</h2>
+            @Html.Raw(no.Descripcion)
+        </div>
+    }
+</div>

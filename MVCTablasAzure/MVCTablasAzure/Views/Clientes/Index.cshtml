@@ -1,0 +1,57 @@
+﻿@using MVCTablasAzure.Models
+@model IEnumerable<MVCTablasAzure.Models.Cliente>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<form method="post">
+    <div>
+        <label>Empresa</label>
+        <input type="text" name="empresa" class="form-control" />
+        <button type="submit" class="btn-success">Buscar clientes</button>
+    </div>
+</form>
+
+
+@if(Model != null)
+{
+    <table class="table">
+        <tr>
+            <th>Empresa</th>
+            <th>IdCliente</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th></th>
+        </tr>
+
+        @foreach (Cliente c in Model)
+        {
+            <tr>
+                <td>
+                    @c.Empresa
+                </td>
+                <td>
+                    @c.IdCliente
+                </td>
+                <td>
+                    @c.Nombre
+                </td>
+                <td>
+                    @c.Apellidos
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { empresa = c.PartitionKey, idcliente = c.RowKey }) |
+                    @Html.ActionLink("Details", "Details", new { empresa = c.PartitionKey, idcliente = c.RowKey }) |
+                    @Html.ActionLink("Delete", "Delete", new { empresa = c.PartitionKey, idcliente = c.RowKey })
+                </td>
+            </tr>
+        }
+    </table>
+}
+

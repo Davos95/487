@@ -1,0 +1,64 @@
+﻿@model CochesCosmosDb.Models.Vehiculo
+
+@{
+    ViewData["Title"] = "DetallesVehiculo";
+}
+
+<h2>DetallesVehiculo</h2>
+
+<div>
+    <h4>Vehiculo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Modelo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Modelo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Tipo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VelocidadMaxima)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VelocidadMaxima)
+        </dd>
+    </dl>
+    @if(Model.Motor != null)
+    {
+        <div style="background-color: burlywood">
+            <dl class="dl-horizontal">
+                <dt>Tipo</dt>
+                <dd>@Model.Motor.Tipo</dd>
+                <dt>Caballos</dt>
+                <dd>@Model.Motor.Caballos</dd>
+                <dt>Consumo</dt>
+                <dd>@Model.Motor.Consumo</dd>
+                <dt>Cilindrada</dt>
+                <dd>@Model.Motor.Cilindrada</dd>
+            </dl>
+        </div>
+    }
+</div>
+<div>
+    @Html.ActionLink("Edit", "ModificarVehiculo", new { idvehiculo = Model.Id }) |
+    @Html.ActionLink("Eliminar", "EliminarVehiculo", new { idvehiculo = Model.Id }) |
+    <a asp-action="Index">Back to List</a>
+</div>

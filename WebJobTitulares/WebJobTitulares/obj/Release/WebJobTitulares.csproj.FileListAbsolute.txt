@@ -1,0 +1,12 @@
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Release\WebJobTitulares.exe.config
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Release\WebJobTitulares.exe
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Release\WebJobTitulares.pdb
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Release\EntityFramework.dll
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Release\EntityFramework.xml
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\obj\Release\WebJobTitulares.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\obj\Release\WebJobTitulares.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\obj\Release\WebJobTitulares.csproj.CopyComplete
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\obj\Release\WebJobTitulares.exe
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\obj\Release\WebJobTitulares.pdb

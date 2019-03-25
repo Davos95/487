@@ -1,0 +1,43 @@
+﻿@model List<Vehiculo>
+
+@{
+    ViewData["Title"] = "BuscarVehiculo";
+}
+
+<h2>Buscar Vehiculo Marca</h2>
+
+<form method="post">
+    <div>
+        <label>Introduzca marca: </label>
+        <input type="text" name="marca" class="form-control" />
+        <button type="submit" class="btn-danger">
+            Buscar coches
+        </button>
+    </div>
+</form>
+
+@if (Model != null)
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>MARCA</th>
+                <th>MODELO</th>
+                <th>TIPO</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Vehiculo car in Model)
+            {
+                <tr>
+                    <td>@car.Marca</td>
+                    <td>@car.Modelo</td>
+                    <td>@car.Tipo</td>
+                    <td>@car.VelocidadMaxima</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

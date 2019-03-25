@@ -1,0 +1,12 @@
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Debug\WebJobTitulares.exe.config
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Debug\WebJobTitulares.exe
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Debug\WebJobTitulares.pdb
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\obj\Debug\WebJobTitulares.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\obj\Debug\WebJobTitulares.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\obj\Debug\WebJobTitulares.exe
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\obj\Debug\WebJobTitulares.pdb
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Debug\EntityFramework.dll
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Debug\EntityFramework.xml
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AlumnoMCSD\source\repos\WebJobTitulares\WebJobTitulares\obj\Debug\WebJobTitulares.csproj.CopyComplete
